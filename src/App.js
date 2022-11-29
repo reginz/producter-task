@@ -1,10 +1,10 @@
 import "./App.css";
-import Card from "./components/Card";
+import ToDo from "./components/ToDo"
 
 function App() {
   return (
     <div className="container">
-      <Card card_title="Daily To Do List" />
+      <ToDo/>
     </div>
   );
 }
